@@ -83,7 +83,7 @@ public Properties p; //create a property class variable. by using this can load 
 			//for local environment copy the below conditions
 			
 			//launch the url in grid
-			driver = new RemoteWebDriver(new URL("http://192.168.1.10:4444/wd/hub"),capabilities);
+			driver = new RemoteWebDriver(new URL("http://172.24.160.1:4444/wd/hub"),capabilities);
 			
 			
 			
